@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+:root{
+	--color-textos:#838383;
+	--color-primario:#1379e7;
+	--color-titulos:#1a1a1a;
+	--fondo-footer:#efefef;
+	--color-footer:#6d6d6d;
+}
+
+.universal-title {
+      font-size: 65px;
+      color: #1379e7;
+      font-weight: 300;
+     font-family: 'Poppins', sans-serif;
+    }
+
+body{
+	font-size: 15px;
+	color: var(--color-textos);
+	font-weight: 400;
+	line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+header{
+	background-color: #fff;
+	padding: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+footer{
+	text-align: center;
+	padding: 20px 0;
+	color: var(--color-footer);
+}
+footer #footer-sponsors{
+	color: #fff;
+}
+
+#footer-sponsors {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+#footer-sponsors h2 {
+  font-size: 12px; /* Adjust font size */
+  color: #000;
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: 600; /* Adjust font weight */
+}
+
+#footer-sponsors h4 {
+  font-size: 15px; /* Adjust font size */
+  color: #6d6d6d;
+  margin-top: 10px;
+word-spacing: 4px;
+	font-weight: 50
+	
+}
+
+#footer-sponsors img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 10px; /* Adjust margin */
+}
+
+#copyright {
+  text-align: center;
+  background-color: #f7f7f7; /* Background color */
+  padding: 20px 0;
+}
+
+#copyright p {
+  font-size: 15px; /* Adjust font size */
+  color: #000;
+  font-weight: 600; /* Adjust font weight */
+}
+
+
+@media (max-width: 768px) {
+  #footer-sponsors h2 {
+    font-size: 30px; 
+  }
+
+  #footer-sponsors h4 {
+    font-size: 16px; 
+  }
+
+  #footer-sponsors img {
+    margin: 10px; 
+  }
+
+  #copyright p {
+    font-size: 20px; 
+  }
+}
+
+
+.section{
+	padding: 8% 0;
+}
+.btn-primary{
+	background-color: var(--color-primario);
+	border: 0;
+	padding: 10px 20px !important;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.titulo{
+	font-size: 44px;
+	line-height: 1.3;
+	font-weight: 600;
+	color: var(--color-titulos);
+	font-style: normal;
+	margin-bottom: 20px;
+}
+#hero {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+.hero-info {
+  padding: 30px;
+  text-align: center;
+}
+
+.universal-title {
+  font-size: 30px;
+  color: #3233E1;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-white-paper,
+.btn-buy-token {
+  padding: 8px 20px;
+  font-size: 12px;
+  border: none;
+  border-radius: 100px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.btn-white-paper {
+  background-color: #315BE1;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-buy-token {
+  background-color: #3233E1;
+  color: white;
+}
+
+.img-hero {
+  max-width: 200%;
+  height: auto;
+  border-radius: 20px;
+}
+
+#hero .icon {
+  max-width: 50px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+#hero .col-md-3 {
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6d6d6d;
+  text-align: center;
+}
+
+#hero .col-md-3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+    h2 {
+     font-size: 14px; 
+      font-weight: 200px; 
+      margin-top: 20px;
+	padding-bottom: 10px;
+color: #1a1a1a;
+    }
+
+    p {
+      font-size: 12px;
+		font-weight: 80px; 
+    }
+#hero .container {
+  text-align: center;
+}
+
+#hero .hero-info p {
+  text-align: left;
+}
+
+#hero .hero-info p br {
+  display: none;
+}
+
+#hero .hero-info p::after {
+  content: '\A\A';
+  white-space: pre;
+}
+#meet,
+#privacy,
+#team {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+article {
+  flex: 1;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+padding-left: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  text-align: center; /* Center the section title */
+}
+
+p {
+  font-size: 16px;
+  color: #6d6d6d;
+}
+
+#meet ul,
+#privacy ul,
+#team ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#meet ul li,
+#privacy ul li,
+#team ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #6d6d6d;
+}
+
+#meet ul li::before,
+#privacy ul li::before,
+#team ul li::before {
+  content: '\203A\0020';
+  position: absolute;
+  left: 0;
+  color: #1379e7;
+}
+
+#meet a,
+#privacy a,
+#team a {
+  display: inline-block;
+  margin-top: 15px;
+  color: #1379e7;
+  text-decoration: none;
+}
+
+#meet button,
+#privacy button,
+#team button {
+  background: none;
+  border: none;
+  color: #1379e7;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 15px;
+}
+
+#privacy .list-image,
+#team .list-image {
+  max-width: 24px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#privacy ul li::before,
+#team ul li::before {
+  content: none; /* Remove bullets from list items in Privacy and Team sections */
+}
+
+#privacy h2,
+#team h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  text-align: right; /* Align title to the right */
+  margin-left: auto; /* Add margin to push to the right */
+}
+
+/* Team section specific styles */
+#team {
+  background-color: #f7f7f7; /* Set background color */
+  padding: 60px 0;
+}
+
+#team .team-member {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+#team .team-member img {
+  max-width: 160px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#team .team-member h3 {
+font-size: 12px; /* Adjust font size */
+  font-weight: 700; /* Bold */
+  text-transform: uppercase; /* Uppercase text */
+  color: #000;
+  margin-bottom: 5px;
+}
+
+#team .team-member p {
+  font-size: 8px; /* Adjust font size */
+  color: #6d6d6d;
+}
+
+#team .row {
+  justify-content: space-between;
+}
+
+#team .col-lg-3 {
+  flex: 0 0 calc(25% - 20px); 
+  margin-right: 20px;
+}
+
+#team .col-lg-3:last-child {
+  margin-right: 0;
+}
+
+#team h2 {
+  display: none; 
+}
